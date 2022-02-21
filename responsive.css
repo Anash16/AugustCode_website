@@ -1,0 +1,378 @@
+/* Responsive for Wrapper CSS for Desktop */
+
+@media screen and (max-width: 1536px) {
+    /* Responsive for Wrapper CSS for Desktop */
+    .wrapper {
+        position: absolute;
+        width: 1536px;
+        height: 1024px;
+        left: 0px;
+        top: 0px;
+        background: var(--dark-color);
+        border-radius: 1px;
+    }
+    /* Responsive for Container CSS for Desktop */
+    .container {
+        position: absolute;
+        width: 1222px;
+        height: 804px;
+        left: 156px;
+        top: 90px;
+        background: #FFFFFF;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 35px;
+    }
+    .wrapper .container .left {
+        position: absolute;
+        width: 509px;
+        height: 749px;
+        left: 10px;
+        top: 10px;
+    }
+    .wrapper .container .left .info {
+        position: absolute;
+        width: 455px;
+        height: 117px;
+        left: 15px;
+        top: 30px;
+    }
+    .wrapper .container .left .form {
+        position: absolute;
+        width: 475px;
+        height: 550px;
+        left: 40px;
+        top: 270px;
+    }
+    .wrapper .container .right {
+        position: absolute;
+        width: 506px;
+        height: 661px;
+        left: 660px;
+        top: 200px;
+    }
+    .wrapper .container .right img {
+        width: 473.23px;
+        height: 331px;
+        left: 759px;
+        top: 220px;
+    }
+    .wrapper .container .right .information {
+        width: 506px;
+        height: 265px;
+        left: 759px;
+        top: 500px;
+        text-align: center;
+    }
+}
+
+
+/* Responsive CSS End for Desktop */
+
+
+/* Responsive CSS Start for Tablet */
+
+@media screen and (max-width: 834px) {
+    .wrapper {
+        position: absolute;
+        width: 834px;
+        height: 960px;
+        background: var(--dark-color);
+    }
+    .container {
+        position: absolute;
+        width: 662px;
+        height: 675px;
+        left: 83px;
+        top: 90px;
+        background: #FFFFFF;
+    }
+    .wrapper .container .left {
+        position: absolute;
+        width: 327px;
+        height: 559.48px;
+        left: 10px;
+        top: 10px;
+    }
+    .wrapper .container .left .info {
+        position: absolute;
+        width: 327px;
+        height: 134px;
+        /* left: 15px;
+        top: 30px; */
+    }
+    .wrapper .container .left .info .first-p {
+        width: 164px;
+        height: 27px;
+        left: -11px;
+        top: 3px;
+        font-family: Roboto;
+        font-style: bold;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 16px;
+        /* text-align: center;
+        color: #000000; */
+    }
+    .wrapper .container .left .info .middle-h {
+        width: 260px;
+        height: 42px;
+        left: 100px;
+        top: 10px;
+        /* font-family: Roboto;
+        font-style: normal;
+        font-weight: bold; */
+        font-size: 36px;
+        line-height: 42px;
+        text-align: center;
+        /* color: #078CCC; */
+    }
+    .wrapper .container .left .info .last-p {
+        width: 329px;
+        height: 32px;
+        left: 1px;
+        top: 90px;
+        font-size: 18px;
+        line-height: 21px;
+    }
+    .wrapper .container .left .form {
+        position: absolute;
+        width: 299px;
+        height: 387.48px;
+        left: 30px;
+        top: 200px;
+    }
+    .wrapper .container .left .form .name {
+        width: 291.36px;
+        height: 50.79px;
+        font-size: 20px;
+    }
+    .wrapper .container .left .form .email {
+        width: 291.36px;
+        height: 50.79px;
+        font-size: 20px;
+    }
+    .wrapper .container .left .form .subject {
+        width: 291.36px;
+        height: 50.79px;
+        font-size: 20px;
+    }
+    .wrapper .container .left .form .reason {
+        width: 291.36px;
+        height: 92.4px;
+        font-size: 20px;
+    }
+    .wrapper .container .left .form .submit_btn {
+        width: 291.36px;
+        height: 52.8px;
+        /* left: 114.87px;
+        top: 659.68px; */
+        font-size: 24px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    .wrapper .container .right {
+        position: absolute;
+        width: 275px;
+        height: 431px;
+        left: 380px;
+        top: 170px;
+    }
+    .wrapper .container .right img {
+        width: 229.33px;
+        height: 222px;
+    }
+    .wrapper .container .right .information {
+        width: 275px;
+        height: 182px;
+        left: 455px;
+        top: 639px;
+    }
+    .wrapper .container .right .information #info_txt {
+        width: 280.23px;
+        height: 36px;
+        left: 466.77px;
+        top: 650px;
+        font-size: 18px;
+    }
+    .wrapper .container .right .information #phone_txt {
+        width: 165.23px;
+        height: 36px;
+        left: 450.77px;
+        top: 546px;
+        font-size: 18px;
+    }
+    .wrapper .container .right .information #email_txt {
+        width: 250.23px;
+        height: 36px;
+        left: 496.77px;
+        top: 546px;
+        font-size: 18px;
+    }
+    .wrapper .container .right .information #info_txt #location_vector {
+        margin-right: 20px;
+    }
+    .wrapper .container .right .information #phone_txt #phone_vector {
+        margin-right: 10px;
+        padding: 3px;
+    }
+    .wrapper .container .right .information #email_txt #email_vector {
+        margin-right: 10px;
+        padding: 2px;
+    }
+}
+
+
+/* Responsive CSS End for Tablet */
+
+
+/* Responsive CSS End for Mobile */
+
+@media screen and ( max-width :675px) {
+    .wrapper {
+        position: absolute;
+        width: 375px;
+        height: 619px;
+        left: 0px;
+        top: 0px;
+        background: #078CCC;
+    }
+    .container {
+        position: absolute;
+        width: 295px;
+        height: 475px;
+        left: 37px;
+        top: 71px;
+    }
+    .wrapper .container .left .info {
+        position: absolute;
+        width: 199px;
+        height: 93px;
+        left: 5px;
+        top: 20px;
+    }
+    .wrapper .container .left .info .first-p {
+        position: absolute;
+        width: 164px;
+        height: 27px;
+        left: -12px;
+        top: -6px;
+        font-size: 12px;
+    }
+    .wrapper .container .left .info .middle-h {
+        position: absolute;
+        width: 130px;
+        height: 21px;
+        left: 59px;
+        top: 21px;
+        font-size: 18px;
+    }
+    .wrapper .container .left .info .last-p {
+        position: absolute;
+        width: 188px;
+        height: 32px;
+        left: -1px;
+        top: 61px;
+        font-size: 9px;
+    }
+    .wrapper .container .left .form {
+        position: absolute;
+        width: 143px;
+        height: 280.68px;
+        left: 10px;
+        top: 50px;
+    }
+    .wrapper .container .left .form .name {
+        position: absolute;
+        width: 140.37px;
+        height: 40px;
+        left: 2px;
+        top: 80px;
+        font-size: 12px;
+    }
+    .wrapper .container .left .form .email {
+        position: absolute;
+        width: 140.37px;
+        height: 40px;
+        left: 2px;
+        top: 145px;
+        font-size: 11px;
+    }
+    .wrapper .container .left .form .subject {
+        position: absolute;
+        width: 140.37px;
+        height: 40px;
+        left: 2px;
+        top: 210px;
+        font-size: 12px;
+    }
+    .wrapper .container .left .form .reason {
+        position: absolute;
+        width: 140.37px;
+        height: 51px;
+        left: 2px;
+        top: 275px;
+        font-size: 12px;
+    }
+    .wrapper .container .left .form .submit_btn {
+        position: absolute;
+        width: 140.37px;
+        height: 40px;
+        left: 2px;
+        top: 350px;
+        font-size: 14px;
+    }
+    .wrapper .container .right {
+        position: absolute;
+        width: 154px;
+        height: 331px;
+        left: 170px;
+        top: 120px;
+    }
+    .wrapper .container .right img {
+        width: 121px;
+        height: 230px;
+        left: 150px;
+        top: 187px;
+    }
+    .wrapper .container .right .information {
+        width: 150.98px;
+        height: 134px;
+        left: 160.02px;
+        top: 384px;
+    }
+    .wrapper .container .right .information #info_txt {
+        width: 132.83px;
+        height: 16px;
+        left: 120px;
+        top: 389px;
+        font-size: 7px;
+    }
+    .wrapper .container .right .information #phone_txt {
+        width: 95px;
+        height: 22px;
+        left: 160px;
+        top: 450px;
+        font-size: 8px;
+    }
+    .wrapper .container .right .information #email_txt {
+        width: 130px;
+        height: 22px;
+        left: 140px;
+        top: 430px;
+        font-size: 8px;
+    }
+    .wrapper .container .right .information #info_txt #location_vector {
+        margin-right: 10px;
+    }
+    .wrapper .container .right .information #phone_txt #phone_vector {
+        margin-right: 7px;
+        padding: 3px;
+    }
+    .wrapper .container .right .information #email_txt #email_vector {
+        margin-right: 5px;
+        padding: 1px;
+    }
+}
+
+
+/* Responsive CSS End for Mobile */
