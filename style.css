@@ -1,0 +1,290 @@
+/* colors  */
+
+ :root {
+    --dark-color: #078CCC;
+    --light-color: #ffffff;
+    --black-color: #000000;
+    --cyan-hover-color: #6af3e1;
+    --desktop: 1440px;
+    --laptop:
+}
+
+
+/* Wrapper CSS Start */
+
+.wrapper {
+    position: absolute;
+    width: 1920px;
+    height: 1098px;
+    left: 0px;
+    top: 0px;
+    background: var(--dark-color);
+    border-radius: 1px;
+}
+
+
+/* Container Css Start */
+
+.container {
+    position: absolute;
+    width: 1464px;
+    height: 804px;
+    left: 190px;
+    top: 100px;
+    background: var(--light-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 35px;
+}
+
+
+/* Left Css Start */
+
+.wrapper .container .left .info {
+    position: absolute;
+    width: 455px;
+    height: 117px;
+    left: 50px;
+    top: 50px;
+}
+
+.wrapper .container .left .info .first-p {
+    position: absolute;
+    width: 258px;
+    height: 52px;
+    left: 16px;
+    top: -3px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 33px;
+    text-align: center;
+    color: var(--black-color);
+}
+
+.wrapper .container .left .info .middle-h {
+    position: absolute;
+    width: 461px;
+    height: 75px;
+    left: 113px;
+    top: 30px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 30px;
+    /* identical to box height */
+    text-align: center;
+    color: var(--dark-color);
+}
+
+.wrapper .container .left .info .last-p {
+    position: absolute;
+    width: 480px;
+    height: 32px;
+    left: 19px;
+    top: 142px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 30px;
+    text-align: center;
+    color: var(--black-color);
+}
+
+.wrapper .container .form {
+    position: absolute;
+    width: 475px;
+    height: 550px;
+    left: 80px;
+    top: 300px;
+}
+
+.wrapper .container .left .form .name {
+    width: 475px;
+    height: 65px;
+    left: 20px;
+    top: 50px;
+    border-radius: 10px;
+    border: 2px solid var(--dark-color);
+    margin: 12px 0;
+    outline: none;
+    padding: 8px;
+    box-sizing: border-box;
+    font-size: 24px;
+}
+
+.wrapper .container .left .form .name:focus {
+    border-color: var(--dark-color);
+    box-shadow: 0 0 8px 0 var(--dark-color);
+}
+
+.wrapper .container .left .form .email {
+    width: 475px;
+    height: 65px;
+    left: 20px;
+    top: 70px;
+    border-radius: 10px;
+    border: 2px solid var(--dark-color);
+    margin: 12px 0;
+    outline: none;
+    padding: 8px;
+    box-sizing: border-box;
+    font-size: 24px;
+}
+
+.wrapper .container .left .form .email:focus {
+    border-color: var(--dark-color);
+    box-shadow: 0 0 8px 0 var(--dark-color);
+}
+
+.wrapper .container .left .form .subject {
+    width: 475px;
+    height: 65px;
+    left: 20px;
+    top: 70px;
+    border-radius: 10px;
+    border: 2px solid var(--dark-color);
+    margin: 12px 0;
+    outline: none;
+    padding: 8px;
+    box-sizing: border-box;
+    font-size: 24px;
+}
+
+.wrapper .container .left .form .subject:focus {
+    border-color: var(--dark-color);
+    box-shadow: 0 0 8px 0 var(--dark-color);
+}
+
+.wrapper .container .left .form .reason {
+    width: 475px;
+    height: 90px;
+    left: 20px;
+    top: 70px;
+    border-radius: 10px;
+    border: 2px solid var(--dark-color);
+    margin: 12px 0;
+    outline: none;
+    padding: 8px;
+    box-sizing: border-box;
+    font-size: 24px;
+    resize: none;
+}
+
+.wrapper .container .left .form .reason:focus {
+    border-color: var(--dark-color);
+    box-shadow: 0 0 8px 0 var(--dark-color);
+}
+
+.wrapper .container .left .form .submit_btn {
+    width: 475px;
+    height: 65px;
+    left: 20px;
+    top: 70px;
+    background: var(--dark-color);
+    border-radius: 10px;
+    margin-top: 12px;
+    outline: none;
+    border: 1px solid var(--dark-color);
+    font-size: 24px;
+    color: var(--light-color);
+}
+
+
+/* Left Css End */
+
+
+/* Right Css Start */
+
+.wrapper .container .right {
+    position: absolute;
+    width: 720px;
+    height: 705px;
+    left: 800px;
+    top: 150px;
+}
+
+.wrapper .container .right img {
+    width: 525px;
+    height: 360px;
+    left: 993px;
+    top: 224px;
+}
+
+.wrapper .container .right .information {
+    width: 525px;
+    height: 265px;
+    left: 993px;
+    top: 500px;
+    text-align: center;
+}
+
+.wrapper .container .right .information #info_txt {
+    width: 490px;
+    height: 36px;
+    /* left: 1061px; */
+    top: 660px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: var(--dark-color);
+}
+
+.wrapper .container .right .information #phone_txt {
+    width: 285px;
+    height: 36px;
+    left: 900px;
+    top: 660px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #078CCC;
+}
+
+.wrapper .container .right .information #email_txt {
+    width: 440px;
+    height: 36px;
+    /* left: 1061px; */
+    top: 660px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: var(--dark-color);
+}
+
+.wrapper .container .right .information #info_txt #location_vector {
+    margin-right: 25px;
+}
+
+.wrapper .container .right .information #phone_txt #phone_vector {
+    margin-right: 10px;
+    padding: 3px;
+}
+
+.wrapper .container .right .information #email_txt #email_vector {
+    margin-right: 10px;
+    padding: 2px;
+}
+
+
+/* Right Css End */
+
+
+/* Container Css Start */
+
+
+/* Wrapper CSS Start */
